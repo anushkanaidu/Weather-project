@@ -1,39 +1,49 @@
-# Weather project
+# Weather project.
 
-***Purpose:*** This project compares precipitation levels across two U.S. cities (Seattle and Portland) between 2018 and 2022 to analyze rainfall patterns.
+Purpose: This project compares precipitation levels across two U.S. cities (Seattle and Portland) between 2018 and 2022 to analyze rainfall patterns.
+
 ---
 ## Project Overview
 
-This project compares rainfall patterns between **Seattle, WA** and **Portland, OR** using daily precipitation data from **2018 to 2022**.  
-It explores which city experiences heavier rainfall overall and which one rains more frequently.  
-By cleaning, merging, and analyzing real NOAA climate data, the project provides visual insights into rainfall trends and seasonal variations across both cities.
+This project explores the question: Does it rain more in Seattle or in Portland?
 
-**Objective:**  
-To determine which city is wetter overall by comparing total precipitation, rainfall frequency, and seasonal patterns.
+In this analysis, we will use daily precipitation data from the National Centers for Environmental Information (NOAA) for the years 2018–2022 to compare rainfall patterns between these two cities. (link is provided below)
 
-**Domain:**  
-Environmental Data Analysis / Climate Studies
+We will:
 
-**Key Techniques:**  
-Data Cleaning, Missing Value Imputation, Data Transformation (Reshape & Merge), Data Visualization using **Pandas**, **NumPy**, **Seaborn**, and **Matplotlib**.
+- Explore and clean the datasets.
+- Handle missing values.
+- Generate visualizations and draw observations.
+- Compare rainfall frequency and total rainfall intensity between the two cities.
+  
+By the end of this project, we will determine which city is wetter overall, "Seattle" or "Portland", based on total amount of precipitation.
+
 ---
 ## Repository Structure
 
 Weather-project/
+
 ├── data/                 # Raw and processed data
+
 ├── code/                 # Jupyter notebooks and Python scripts
+
 ├── reports/              # Generated reports and visualizations
+
 ├── requirements.txt      # Dependencies
+
 └── README.md             # Project documentation
+
 ---
 ## Data 
 
 seattle data:[ https://raw.githubusercontent.com/brian-fischer/DATA-5100/refs/heads/main/weather/seattle_rain.csv ]
 
 portland data:[ https://raw.githubusercontent.com/anushkanaidu/Weather-Data-Project/refs/heads/main/weather/portland_rainfall.csv ]
+
 ---
 ## Requirements
-To run the code, install pandas numpy seaborn matplotlib
+To run the code, install pandas, numpy, seaborn and matplotlib.
+
 ---
 ## Analysis
 
@@ -61,24 +71,37 @@ Follow the steps below to reproduce the results.
 7. **Findings**  
    Summarize which city rains more often and which has heavier rainfall overall.
 ---
+
 **Note:**  
 Run the cells from top to bottom in the notebook. Each step depends on the previous one.
+
 ---
 ## Results
 
-The analysis shows clear differences between rainfall patterns in Seattle and Portland from 2018 to 2022.
+Based on the analysis of precipitation data for Seattle and Portland from 2018 to 2022, we can draw the following conclusions:
 
-- **Seattle** experiences rain more often, meaning it has a higher number of rainy days throughout the year.  
-- **Portland** receives more total rainfall overall — when it rains, it tends to rain harder.  
-- Both cities follow similar seasonal patterns, with the most rain falling between **November and February** and the least rain during the **summer months**.
+Total Rainfall:
+Portland received more total rainfall than Seattle during this period.
+
+Frequency vs. Intensity:
+Seattle experienced rain on more days overall, but the rainfall was usually lighter.
+In contrast, Portland had fewer rainy days, but when it rained, the precipitation was heavier on average.
+
+Seasonal Patterns:
+Both cities showed clear seasonal trends where it rained more during the winter months and less during the summer.
+However, Portland had higher rainfall peaks during the wet season compared to Seattle.
+
+In summary:
+Seattle tends to have rain more often but in smaller amounts, while Portland has fewer rainy days with heavier rainfall, leading to a higher total precipitation overall.
+
 ---
 ## Authors
-**Anushka Naidu Maddisetty** – [@anushkanaidu](https://github.com/anushkanaidu)
+**Anushka Naidu Maddisetty** – (https://github.com/anushkanaidu)
 
 ---
 
 ## License
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** – see the (LICENSE) file for details.
 
 ---
 
