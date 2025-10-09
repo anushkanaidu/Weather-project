@@ -7,7 +7,7 @@
 #    pip install -r requirements.txt
 #
 # Environment:
-# - Python 3.10 or later
+# - Python 3.10 
 # - Jupyter Notebook / Google Colab
 
 # Core Libraries
@@ -26,3 +26,4 @@ statsmodels
 jupyter
 notebook
 ipython
+
