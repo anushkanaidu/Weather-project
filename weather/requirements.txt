@@ -1,18 +1,28 @@
-# Core
+# Weather Project - Requirements
+# This file lists all software and libraries used in the project:
+# "Seattle vs. Portland: Which City Gets More Rain?"
+# 
+# How to use:
+# Run the following command in your terminal or notebook environment to install:
+#    pip install -r requirements.txt
+#
+# Environment:
+# - Python 3.10 or later
+# - Jupyter Notebook / Google Colab
+
+# Core Libraries
 numpy
 pandas
 
-# Visualization
+# Visualization Libraries
 matplotlib
 seaborn
 
-
-# Machine Learning
+# Optional Analysis / Statistical Libraries
 scikit-learn
 statsmodels
 
-
-# Jupyter & Development
+# Development / Notebook Environment
 jupyter
 notebook
 ipython
