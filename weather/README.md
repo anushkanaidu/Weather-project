@@ -101,7 +101,7 @@ Seattle tends to have rain more often but in smaller amounts, while Portland has
 ---
 
 ## License
-This project is licensed under the **MIT License** – see the (LICENSE) file for details.
+This project is licensed under the **MIT License** – see the ([LICENSE](https://github.com/anushkanaidu/Weather-project/blob/main/weather/License)) file for details.
 
 ---
 
