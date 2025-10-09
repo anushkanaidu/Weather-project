@@ -1,6 +1,6 @@
 # Weather project
 
-**Purpose:** This project compares precipitation levels across two U.S. cities (Seattle and Portland) between 2018 and 2022 to analyze rainfall patterns.
+***Purpose:*** This project compares precipitation levels across two U.S. cities (Seattle and Portland) between 2018 and 2022 to analyze rainfall patterns.
 ---
 ## Project Overview
 
