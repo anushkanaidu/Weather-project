@@ -23,22 +23,28 @@ By the end of this project, we will determine which city is wetter overall, "Sea
 
 Weather-project/
 
-├── data/                 # Raw and processed data
+├── data/                   # Raw and processed data
 
-├── code/                 # Jupyter notebooks and Python scripts
+├── code/                   # Jupyter notebooks and Python scripts
 
-├── reports/              # Generated reports and visualizations
+├── reports/                # Generated reports and visualizations
 
-├── requirements.txt      # Dependencies
+├── requirements.txt        # Dependencies
+ 
+├── README.md               # Project documentation
 
-└── README.md             # Project documentation
+└── License                 # Project license
 
 ---
-## Data 
+## Data
 
-seattle data:[ https://raw.githubusercontent.com/brian-fischer/DATA-5100/refs/heads/main/weather/seattle_rain.csv ]
+This project uses precipitation data obtained from the **National Oceanic and Atmospheric Administration (NOAA)**, [Global Historical Climatology Network – Daily (GHCND)](https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND) dataset.
 
-portland data:[ https://raw.githubusercontent.com/anushkanaidu/Weather-Data-Project/refs/heads/main/weather/portland_rainfall.csv ]
+Seattle data source:  
+[https://raw.githubusercontent.com/brian-fischer/DATA-5100/refs/heads/main/weather/seattle_rain.csv](https://raw.githubusercontent.com/brian-fischer/DATA-5100/refs/heads/main/weather/seattle_rain.csv)
+
+Portland data source:  
+[https://raw.githubusercontent.com/anushkanaidu/Weather-Data-Project/refs/heads/main/weather/portland_rainfall.csv](https://raw.githubusercontent.com/anushkanaidu/Weather-Data-Project/refs/heads/main/weather/portland_rainfall.csv)
 
 ---
 ## Requirements
