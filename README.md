@@ -23,22 +23,25 @@ By the end of this project, we will determine which city is wetter overall, "Sea
 
 Weather-project/
 
-├── data/                   # Raw and processed data
+    ├── weather/                # Core project folder
 
-├── code/                   # Jupyter notebooks and Python scripts
-
-├── reports/                # Generated reports and visualizations
-
-├── requirements.txt        # Dependencies
- 
-├── README.md               # Project documentation
-
-└── License                 # Project license
+    ├── code/                   # Jupyter notebooks and Python scripts
+    
+    ├── data/                   # Raw and processed data
+    
+    ├── License                 # Project license
+    
+    ├── Weather Report.pdf      # Generated report and visualizations
+    
+    ├── requirements.txt        # Dependencies
+    
+    └── README.md               # Project documentation 
 
 ---
 ## Data
 
-This project uses precipitation data obtained from the **National Oceanic and Atmospheric Administration (NOAA)**, [Global Historical Climatology Network – Daily (GHCND)](https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND) dataset.
+The precipitation data sets were downloaded from the [**National Centers for Environmental Information NOAA Climate Online Data tool**](https://www.ncei.noaa.gov/cdo-web/search?datasetid=GHCND).
+
 
 Seattle data source:  
 [https://raw.githubusercontent.com/brian-fischer/DATA-5100/refs/heads/main/weather/seattle_rain.csv](https://raw.githubusercontent.com/brian-fischer/DATA-5100/refs/heads/main/weather/seattle_rain.csv)
